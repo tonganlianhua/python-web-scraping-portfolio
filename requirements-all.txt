@@ -1,0 +1,35 @@
+# Python数据爬虫作品集 - 汇总依赖文件
+# Python Web Scraping Portfolio - Aggregate Dependencies File
+#
+# 安装说明 / Installation Instructions:
+# pip install -r requirements-all.txt
+#
+# 或逐个安装 / Or install individually:
+# pip install requests beautifulsoup4 lxml pandas openpyxl matplotlib feedparser
+
+# 核心网络库 / Core Network Libraries
+requests==2.31.0
+
+# HTML解析库 / HTML Parsing Libraries
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# 数据处理库 / Data Processing Libraries
+pandas==2.2.0
+
+# Excel文件操作库 / Excel File Operations
+openpyxl==3.1.2
+
+# 数据可视化库（用于价格趋势图）/ Data Visualization (for price trend charts)
+matplotlib==3.8.2
+
+# RSS解析库（用于新闻聚合）/ RSS Parsing (for news aggregation)
+feedparser==6.0.10
+
+# 注意事项 / Notes:
+# 1. 所有依赖库都指定了版本号，确保环境一致性 / All
+# dependencies specify versions for environment consistency
+# 2. 如需使用最新版本，可以移除版本号 / To use latest
+# versions, remove version numbers
+# 3. 建议在虚拟环境中安装 / Recommended to install in virtual
+# environment: python -m venv venv

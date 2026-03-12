@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "name": "京东测试商品",
+      "platform": "jd",
+      "url": "https://item.jd.com/100012047978.html",
+      "selector": ".price .p-price .price",
+      "enabled": true
+    },
+    {
+      "name": "淘宝测试商品",
+      "platform": "taobao",
+      "url": "https://detail.tmall.com/item.htm?id=123456",
+      "selector": ".tm-price",
+      "enabled": false
+    }
+  ],
+  "settings": {
+    "check_interval": 300,
+    "log_file": "price_history.log",
+    "history_file": "price_history.json"
+  }
+}

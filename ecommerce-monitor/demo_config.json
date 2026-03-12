@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "name": "京东iPhone 15",
+      "platform": "jd",
+      "url": "https://item.jd.com/100046560532.html",
+      "enabled": true
+    },
+    {
+      "name": "京东小米14",
+      "platform": "jd",
+      "url": "https://item.jd.com/100060977554.html",
+      "enabled": true
+    },
+    {
+      "name": "京东华为商品",
+      "platform": "jd",
+      "url": "https://item.jd.com/100012047978.html",
+      "enabled": false
+    }
+  ],
+  "settings": {
+    "check_interval": 300,
+    "log_file": "price_history.log",
+    "history_file": "price_history.json"
+  }
+}

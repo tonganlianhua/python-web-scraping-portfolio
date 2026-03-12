@@ -1,0 +1,16 @@
+{
+  "description": "新闻聚合器配置文件",
+  "version": "1.0.0",
+  "max_news_per_source": 15,
+  "sources": [
+    "sina",
+    "163",
+    "tencent"
+  ],
+  "export_json": true,
+  "export_csv": true,
+  "json_filename": "news.json",
+  "csv_filename": "news.csv",
+  "request_timeout": 10,
+  "delay_between_requests": 1
+}
