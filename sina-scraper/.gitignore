@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Data files
+data/*.json
+data/*.csv
+data/*.txt
+data/*.png
+data/*.jpg
+data/*.jpeg
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cookies (contains sensitive data)
+cookie.txt
+*.cookie
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# Proxy config (contains sensitive data)
+proxy.json
